@@ -1,0 +1,112 @@
+/*
+  style.css  
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;   /* Spacing between items */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.flex-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    background-image: url("andy-quezada-RisKqQIPb1Q-unsplash.jpg");
+    grid-column: span 2;
+    text-align: center;
+    font-size: 40px;
+    height: 100px;
+}
+
+.nav {
+    grid-column: span 2;
+    text-align: center;
+    background-color: #8ec7c6;
+}
+
+a {
+    color: black;
+    text-decoration: none;  /* to remove underline */
+}
+
+a:hover {
+    color: red; /* Change color on hover */
+}
+  
+.mainFull {
+    grid-column: span 2;
+    text-align: left;
+    padding: 20px;
+}
+
+.mainHalf {
+    text-align: left;
+    padding: 20px;
+}
+
+.footer {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    background-color: #8ec7c6;
+}
+
+
+
+@media (max-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .title {
+        background-image: url("andy-quezada-RisKqQIPb1Q-unsplash.jpg");
+        text-align: center;
+        font-size: 40px;
+        height: 100px;
+    }
+    
+    .nav {
+        text-align: center;
+        background-color: #8ec7c6;
+    }
+    
+    .mainFull {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 13px;
+        padding: 10px;
+        background-color: #8ec7c6;
+    }
+}
