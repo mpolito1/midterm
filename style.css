@@ -7,6 +7,7 @@ body {
     text-align: center;
     background-color: white;
     color: black;
+    font-size: 20px;
 }
 
 .container {
@@ -40,6 +41,7 @@ body {
     grid-column: span 2;
     text-align: center;
     background-color: #8ec7c6;
+    font-size: 23px;
 }
 
 a {
@@ -73,6 +75,45 @@ a:hover {
 
 
 @media (max-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .title {
+        background-image: url("andy-quezada-RisKqQIPb1Q-unsplash.jpg");
+        text-align: center;
+        font-size: 40px;
+        height: 100px;
+    }
+    
+    .nav {
+        text-align: center;
+        background-color: #8ec7c6;
+    }
+    
+    .mainFull {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 13px;
+        padding: 10px;
+        background-color: #8ec7c6;
+    }
+}
+
+@media (max-width:480px) {
     .container {
         display: grid;
         grid-template-columns: 1fr;
