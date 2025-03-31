@@ -2,6 +2,11 @@
   style.css  
 */
 
+.mainHalf {
+    text-align: left;
+    padding: 20px;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -59,10 +64,7 @@ a:hover {
     padding: 20px;
 }
 
-.mainHalf {
-    text-align: left;
-    padding: 20px;
-}
+
 
 .footer {
     grid-column: span 2;
@@ -93,16 +95,19 @@ a:hover {
         text-align: center;
         font-size: 40px;
         height: 100px;
+        grid-column: 1;
     }
     
     .nav {
         text-align: center;
         background-color: #8ec7c6;
+        grid-column: 1;
     }
     
     .mainFull {
         text-align: left;
         padding: 20px;
+        grid-column: 1;
     }
 
     .footer {
@@ -110,6 +115,7 @@ a:hover {
         font-size: 13px;
         padding: 10px;
         background-color: #8ec7c6;
+        grid-column: 1;
     }
 }
 
@@ -132,16 +138,19 @@ a:hover {
         text-align: center;
         font-size: 40px;
         height: 100px;
+        grid-column: 1;
     }
     
     .nav {
         text-align: center;
         background-color: #8ec7c6;
+        grid-column: 1;
     }
     
     .mainFull {
         text-align: left;
         padding: 20px;
+        grid-column: 1;
     }
 
     .footer {
@@ -149,5 +158,6 @@ a:hover {
         font-size: 13px;
         padding: 10px;
         background-color: #8ec7c6;
+        grid-column: 1;
     }
 }
