@@ -2,11 +2,6 @@
   style.css  
 */
 
-.mainHalf {
-    text-align: left;
-    padding: 20px;
-}
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -38,8 +33,9 @@ body {
     background-image: url("andy-quezada-RisKqQIPb1Q-unsplash.jpg");
     grid-column: span 2;
     text-align: center;
-    font-size: 40px;
-    height: 100px;
+    font-size: 45px;
+    font-weight: bold;
+    height: 110px;
 }
 
 .nav {
@@ -64,7 +60,10 @@ a:hover {
     padding: 20px;
 }
 
-
+.mainHalf {
+    text-align: left;
+    padding: 20px;
+}
 
 .footer {
     grid-column: span 2;
